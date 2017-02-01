@@ -1,0 +1,76 @@
+    <!DOCTYPE html>    
+    <!-- define angular app -->    
+    <html ng-app="RoutingApp">
+    <img src="./public/img/CDI_Header.jpg" class="cditoplogoimg">
+    <div></div>    
+    <head>    
+        <!-- CSS Files -->    
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />    
+        <link rel="stylesheet" href="./css/font-awesome.css" />    
+        
+        <!-- SPELLS -->    
+        <script src="./js/angular.min.js"></script>    
+        <script src="./js/angular-route.js"></script>    
+        <script src="./js/bar3script.js"></script>
+        <script src="./js/angular-animate.js"></script>
+		<script src="./js/ui-bootstrap-tpls-2.5.0.min.js"></script>
+		<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<style>
+    .cditoplogoimg{display: block; margin: auto; width: 60%;}
+     </style> 
+     
+     <style>
+.navbar-default {background-color: #006699;border-color: #425766;}
+.navbar-default .navbar-brand { color: #d7e2e9;}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {color: #e5dbdb;}
+.navbar-default .navbar-text { color: #d7e2e9;}
+.navbar-default .navbar-nav > li > a {  color: #d7e2e9;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus { color: #e5dbdb;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #e5dbdb;
+  background-color: #425766;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #e5dbdb;
+  background-color: #425766;
+}
+.navbar-default .navbar-link {
+  color: #d7e2e9;
+}
+.navbar-default .navbar-link:hover {
+  color: #e5dbdb;
+}
+</style>
+    </head>    
+        
+    <body ng-controller="mainController">    
+       <nav class="navbar navbar-default">    
+            <div class="container">    
+                <div class="navbar-header"> 
+             		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          				<span class="sr-only">Toggle navigation</span>
+          				<span class="icon-bar"></span>
+          				<span class="icon-bar"></span>
+          				<span class="icon-bar"></span>
+        			</button>
+        		</div>
+            </div>    
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            	<ul class="nav navbar-nav">    
+                    <li><a href="#all">All</a></li>    
+                    <li><a href="#infrastructure">Infrastructure</a></li>    
+                    <li><a href="#busapps">Business Apps.</a></li>    
+                    <li><a href="#eventincident">Event/Incident</a></li>
+                    <li><a href="#securitycompliance">Security/Compliance</a></li>
+                    <li><a href="#b">Recent Alerts</a></li>   
+                </ul>    
+            </div>
+        </nav>    
+        
+        <div id="main">    
+            <!-- angular templating : This is where content will be injected -->    
+            <div ng-view></div>    
+        </div>    
+    </body>    
+        
+    </html>   

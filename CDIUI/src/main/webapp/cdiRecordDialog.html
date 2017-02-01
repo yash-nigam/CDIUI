@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="./js/angular.min.js"></script>
+
+<style type="text/css">
+.top_heading {
+      background: blue;
+      color: white;
+      font-weight: 900;
+      margin: 1px;
+      }
+ .liheading {
+      list-style: none;
+      border-top: solid 2px #DDEfff;
+      margin-right: 5px;
+      background: lightblue;
+      font-weight: 900;
+      }
+</style>
+</head>
+<body>
+
+<div class="modal-header"> 
+  	<div ng-if="cdirecord.QUERY== 'PRODUCT_NAME-by_SOFTWARE_TYPE'" >
+		<p align="center" class="top_heading">Business Applications</p>
+	</div>
+
+	<div ng-if="cdirecord.QUERY == 'SOFTWARE_TYPE'" >
+		<p align="center" class="top_heading">Infrastructure (Middleware - Applications)</p>
+	</div>
+</div>
+
+
+<div class="modal-body"> Details:<br />
+<table border="0" width="80%">
+	<p align="center" class="liheading">{{cdirecord.METRIC_GROUP}} > {{cdirecord.METRIC_NAME}}</p>
+	<tr><td>RANK</td><td>{{cdirecord.RANK}}</td></tr>
+	<tr><td>D_CLIENT_ID</td><td>{{cdirecord.D_CLIENT_ID}}</td></tr>
+	<tr><td>METRIC_GROUP</td><td>{{cdirecord.METRIC_GROUP}}</td></tr>	
+	<tr><td>METRIC_NAME</td><td>{{cdirecord.METRIC_NAME}}</td></tr>
+	<tr><td>SEVERITY</td><td>{{cdirecord.SEVERITY}}</td></tr>
+	<tr><td>QUERY</td><td>{{cdirecord.QUERY}}</td></tr>
+	<tr><td>VALID_FLAG</td><td>{{cdirecord.VALID_FLAG}}</td></tr>
+</table>
+</div>
+
+<div class="modal-footer">
+	<button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+    <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>
+</body>
+</html>

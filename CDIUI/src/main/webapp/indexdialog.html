@@ -1,0 +1,159 @@
+
+<html ng-app="myapp">
+   <style type="text/css">
+      ul {
+      -moz-column-count: 5;
+      -moz-column-gap: 5px;
+      -webkit-column-count: 5;
+      -webkit-column-gap: 5px;
+      column-count: 5;
+      column-gap: 5px;
+      list-style: none;
+      }
+      li {
+      list-style: none;
+      border-top: solid 2px #DDEfff;
+      margin-right: 10px;
+      }
+      .top_heading {
+      background: blue;
+      color: white;
+      font-weight: 900;
+      margin: 1px;
+      }
+      .liheading {
+      list-style: none;
+      border-top: solid 2px #DDEfff;
+      margin-right: 5px;
+      background: lightblue;
+      font-weight: 900;
+      }
+   </style>
+   <head>
+      <script src="./js/angular.min.js"></script>
+		<script src="./js/angular-animate.js"></script>
+		<script src="./js/ui-bootstrap-tpls-2.5.0.min.js"></script>
+		<link href="./css/bootstrap.min.css" rel="stylesheet">
+      <script>
+         var app = angular.module('myapp', ['ui.bootstrap']);
+         app.controller('jsoncontroller', function($scope, $http,$uibModal) {
+             $http.get('./js/jsondata.json').success(function(data) {
+                 $scope.jsondata = data;
+             });
+             $scope.orderProp = 'RANK';
+             
+             $scope.open = function (cdirecord){ 
+            	 var modalInstance = $uibModal.open({
+            		 	controller: "ModalInstanceCtrl",
+            		 	templateUrl: 'cdiRecordDialog.html',
+		     			resolve:{cdirecord: function(){return cdirecord;}
+     	        			}});};
+     	        			
+         });
+         
+         app.controller('ModalInstanceCtrl', function($scope, $uibModalInstance,cdirecord) {
+       	  $scope.ok = function() { $uibModalInstance.close(); };
+       	  $scope.cdirecord = cdirecord;
+       	  $scope.cancel = function() {
+       	    $uibModalInstance.dismiss('cancel');
+       	  };
+       	});
+         
+         
+         app.filter('unique', function() {
+             return function(collection, keyname) {
+                 var output = [],
+                     keys = [];
+         
+                 angular.forEach(collection, function(item) {
+                     var key = item[keyname];
+                     if (keys.indexOf(key) === -1) {
+                         keys.push(key);
+                         output.push(item);
+                     }
+                 });
+                 return output;
+             };
+         });
+      </script>
+   </head>
+   <div ng-controller="jsoncontroller">
+      <div ng-repeat="queryrow in jsondata | unique: 'QUERY'">
+         <div ng-if="queryrow.QUERY == 'SOFTWARE_TYPE'" >
+            <p align="center" class="top_heading">Infrastructure (Middleware / Applications)</p>
+            <ul>
+               <div ng-repeat="row in jsondata | unique: 'METRIC_GROUP'" >
+                  <div ng-repeat="row2 in jsondata">
+                     <div ng-if="row2.METRIC_GROUP==row.METRIC_GROUP && row2.QUERY == 'SOFTWARE_TYPE'">
+                        <div ng-if="row2.METRIC_NAME==row.METRIC_GROUP">
+                           <li class="liheading"><table width="200px"><tr><td colspan="2" width="100%">{{row2.METRIC_NAME}}</td></tr></table></li>
+                        </div>
+                        <li>
+                           <table width="300px" >
+                              <tr>
+                                 <td width="80%"><a href="#" ng-click="open(row2)">{{row2.METRIC_NAME}}</a></td>
+                                 
+                                 <td width="20%">
+                                    <div ng-if="row2.SEVERITY == '0' "><img src="./public/img/tick_g.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '1' "><img src="./public/img/tick_g.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '2' "><img src="./public/img/tick_y.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '3' "><img src="./public/img/tick_y.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '4' "><img src="./public/img/tick_y.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '5' "><img src="./public/img/tick_r.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == 'NULL' "><img src="./public/img/spacer.gif" width="25" height="25" alt=""></img>
+                                    </div>
+                                 </td>
+                              </tr>
+                           </table>
+                        </li>
+                     </div>
+                 </div>
+               </div>
+            </ul>
+         </div>
+         <div ng-if="queryrow.QUERY == 'PRODUCT_NAME-by_SOFTWARE_TYPE'">
+            <p align="center" class="top_heading">Business Applications</p>
+	    <ul>
+               <div ng-repeat="row in jsondata | unique: 'METRIC_GROUP'" >
+                  <div ng-repeat="row2 in jsondata">
+                     <div ng-if="row2.METRIC_GROUP==row.METRIC_GROUP && row2.QUERY == 'PRODUCT_NAME-by_SOFTWARE_TYPE'">
+                        <div ng-if="row2.METRIC_NAME==row.METRIC_GROUP">
+                           <li class="liheading"><table width="200px"><tr><td colspan="2" width="100%">{{row2.METRIC_NAME}}</td></tr></table></li>
+                        </div>
+                        <li>
+                           <table width="300px" >
+                              <tr>
+                                 <td width="80%"><a href="#">{{row2.METRIC_NAME}}</a></td>
+                                 <td width="20%">
+                                    <div ng-if="row2.SEVERITY == '0' "><img src="./public/img/tick_g.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '1' "><img src="./public/img/tick_g.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '2' "><img src="./public/img/tick_y.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '3' "><img src="./public/img/tick_y.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '4' "><img src="./public/img/tick_y.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '5' "><img src="./public/img/tick_r.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == 'NULL' "><img src="./public/img/spacer.gif" width="25" height="25" alt=""></img>
+                                    </div>
+                                 </td>
+                              </tr>
+                           </table>
+                        </li>
+                     </div>
+                  </div>
+               </div>
+            </ul>
+         </div>
+      </div>
+   </div>
+</html>

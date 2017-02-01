@@ -1,0 +1,109 @@
+<html ng-app="RoutingApp">
+   <style type="text/css">
+      .myul {
+      -moz-column-count: 5;
+      -moz-column-gap: 5px;
+      -webkit-column-count: 5;
+      -webkit-column-gap: 5px;
+      column-count: 5;
+      column-gap: 5px;
+      list-style: none;
+      }
+      .myli {
+      list-style: none;
+      border-top: solid 2px #DDEfff;
+      margin-right: 10px;
+      }
+      .top_heading {
+      background: #5F77AB;
+      color: white;
+      font-weight: 900;
+      margin: 1px;
+      }
+      .liheading {
+      list-style: none;
+      border-top: solid 2px #DDEfff;
+      margin-right: 5px;
+      background: #81A0E6;
+      font-weight: 900;
+      }
+   </style>
+   <div ng-controller="jsoncontroller">
+      <div ng-repeat="queryrow in jsondata | unique: 'QUERY'">
+         <div ng-if="queryrow.QUERY == 'SOFTWARE_TYPE'" >
+            <p align="center" class="top_heading">Infrastructure (Middleware / Applications)</p>
+            <ul class="myul">
+               <div ng-repeat="row in jsondata | unique: 'METRIC_GROUP'" >
+                  <div ng-repeat="row2 in jsondata">
+                     <div ng-if="row2.METRIC_GROUP==row.METRIC_GROUP && row2.QUERY == 'SOFTWARE_TYPE'">
+                        <div ng-if="row2.METRIC_NAME==row.METRIC_GROUP">
+                           <li class="liheading"><table width="200px"><tr><td colspan="2" width="100%">{{row2.METRIC_NAME}}</td></tr></table></li>
+                        </div>
+                        <li class="myli">
+                           <table width="300px" >
+                              <tr>
+                                 <td width="80%"><a ng-click="open(row2)">{{row2.METRIC_NAME}}</a></td>
+                                 <td width="20%">
+                                    <div ng-if="row2.SEVERITY == '0' "><img src="./public/img/tick_g.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '1' "><img src="./public/img/tick_g.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '2' "><img src="./public/img/tick_y.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '3' "><img src="./public/img/tick_y.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '4' "><img src="./public/img/tick_y.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '5' "><img src="./public/img/tick_r.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == 'NULL' "><img src="./public/img/spacer.gif" width="25" height="25" alt=""></img>
+                                    </div>
+                                 </td>
+                              </tr>
+                           </table>
+                        </li>
+                     </div>
+                 </div>
+               </div>
+            </ul>
+         </div>
+         <div ng-if="queryrow.QUERY == 'PRODUCT_NAME-by_SOFTWARE_TYPE'">
+            <p align="center" class="top_heading">Business Applications</p>
+	    <ul class="myul">
+               <div ng-repeat="row in jsondata | unique: 'METRIC_GROUP'" >
+                  <div ng-repeat="row2 in jsondata">
+                     <div ng-if="row2.METRIC_GROUP==row.METRIC_GROUP && row2.QUERY == 'PRODUCT_NAME-by_SOFTWARE_TYPE'">
+                        <div ng-if="row2.METRIC_NAME==row.METRIC_GROUP">
+                           <li class="liheading"><table width="200px"><tr><td colspan="2" width="100%">{{row2.METRIC_NAME}}</td></tr></table></li>
+                        </div>
+                        <li class="myli">
+                           <table width="300px" >
+                              <tr>
+                                 <td width="80%"><a ng-click="open(row2)">{{row2.METRIC_NAME}}</a></td>
+                                 <td width="20%">
+                                    <div ng-if="row2.SEVERITY == '0' "><img src="./public/img/tick_g.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '1' "><img src="./public/img/tick_g.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '2' "><img src="./public/img/tick_y.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '3' "><img src="./public/img/tick_y.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '4' "><img src="./public/img/tick_y.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == '5' "><img src="./public/img/tick_r.jpg" width="25" height="25" alt=""></img>
+                                    </div>
+                                    <div ng-if="row2.SEVERITY == 'NULL' "><img src="./public/img/spacer.gif" width="25" height="25" alt=""></img>
+                                    </div>
+                                 </td>
+                              </tr>
+                           </table>
+                        </li>
+                     </div>
+                  </div>
+               </div>
+            </ul>
+         </div>
+      </div>
+   </div>
+</html>

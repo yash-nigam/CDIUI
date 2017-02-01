@@ -1,0 +1,677 @@
+[
+  {
+    "RANK": "1",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "SERVER",
+    "SEVERITY": "5",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4541",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "ADOBE",
+    "SEVERITY": "0",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "1"
+  },
+  {
+    "RANK": "1.4542",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "APACHE SOFTWARE FOUNDATION",
+    "SEVERITY": "4",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4543",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "BROADCOM",
+    "SEVERITY": "NULL",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4544",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "DELL",
+    "SEVERITY": "0",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4545",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "DYNATRACE",
+    "SEVERITY": "0",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4546",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "ELASTIC",
+    "SEVERITY": "NULL",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4547",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "FLEXERA SOFTWARE",
+    "SEVERITY": "NULL",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4548",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "FREE SOFTWARE FOUNDATION",
+    "SEVERITY": "5",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4549",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "HWACI",
+    "SEVERITY": "4",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4550",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "IBM",
+    "SEVERITY": "5",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4551",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "JAM SOFTWARE",
+    "SEVERITY": "0",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "1"
+  },
+  {
+    "RANK": "1.4552",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "LOGMEIN",
+    "SEVERITY": "NULL",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4553",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "MCAFEE",
+    "SEVERITY": "0",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4554",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "MICROSOFT",
+    "SEVERITY": "0",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4555",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "OPENBSD PROJECT",
+    "SEVERITY": "5",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4556",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "OPENSSH",
+    "SEVERITY": "4",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4557",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "ORACLE",
+    "SEVERITY": "5",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4558",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "OSPESD",
+    "SEVERITY": "NULL",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4559",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "OSPESD",
+    "SEVERITY": "5",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "1"
+  },
+  {
+    "RANK": "1.4560",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "POSTFIX",
+    "SEVERITY": "5",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4561",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "PYTHON SOFTWARE FOUNDATION",
+    "SEVERITY": "4",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4562",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "REALVNC",
+    "SEVERITY": "0",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "1"
+  },
+  {
+    "RANK": "1.4563",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "RED HAT",
+    "SEVERITY": "4",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4564",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "SAS INSTITUTE",
+    "SEVERITY": "0",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4565",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "SENDMAIL",
+    "SEVERITY": "0",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4566",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "SYMANTEC",
+    "SEVERITY": "5",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4567",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "SYSINTERNALS",
+    "SEVERITY": "NULL",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4568",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "THE OPENSSL PROJECT",
+    "SEVERITY": "4",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4569",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "THE PERL FOUNDATION",
+    "SEVERITY": "4",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4570",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "UNKNOWN",
+    "SEVERITY": "NULL",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4571",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "UNKNOWN",
+    "SEVERITY": "4",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "1"
+  },
+  {
+    "RANK": "1.4572",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "VMWARE",
+    "SEVERITY": "0",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "1.4573",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "SERVER",
+    "METRIC_NAME": "WILSON WINDOWWARE",
+    "SEVERITY": "0",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "3",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "STORAGE",
+    "METRIC_NAME": "STORAGE",
+    "SEVERITY": "NULL",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "3.153",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "STORAGE",
+    "METRIC_NAME": "IBM",
+    "SEVERITY": "NULL",
+    "QUERY": "SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "39",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "CSS",
+    "METRIC_NAME": "CSS",
+    "SEVERITY": "4",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "39.1",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "CSS",
+    "METRIC_NAME": "eps",
+    "SEVERITY": "NULL",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "39.10",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "CSS",
+    "METRIC_NAME": "socr",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "1"
+  },
+  {
+    "RANK": "39.11",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "CSS",
+    "METRIC_NAME": "storm",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "39.2",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "CSS",
+    "METRIC_NAME": "loyalty",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "39.3",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "CSS",
+    "METRIC_NAME": "main",
+    "SEVERITY": "4",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "39.4",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "CSS",
+    "METRIC_NAME": "misc",
+    "SEVERITY": "4",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "39.5",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "CSS",
+    "METRIC_NAME": "mysa",
+    "SEVERITY": "NULL",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "39.6",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "CSS",
+    "METRIC_NAME": "omniclient",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "39.7",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "CSS",
+    "METRIC_NAME": "rtview",
+    "SEVERITY": "NULL",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "39.8",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "CSS",
+    "METRIC_NAME": "smart-pls",
+    "SEVERITY": "NULL",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "39.9",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "CSS",
+    "METRIC_NAME": "smart-push",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "53",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "DAL",
+    "METRIC_NAME": "DAL",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "53.1",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "DAL",
+    "METRIC_NAME": "Legacy",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "53.2",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "DAL",
+    "METRIC_NAME": "MobileWeb",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "155",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP-ECOM",
+    "METRIC_NAME": "RTP-ECOM",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "155.1",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP-ECOM",
+    "METRIC_NAME": "IBM Infrastructure",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "156",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP-ECOM-MACYS",
+    "METRIC_NAME": "RTP-ECOM-MACYS",
+    "SEVERITY": "NULL",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "156.1",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP-ECOM-MACYS",
+    "METRIC_NAME": "WSSG",
+    "SEVERITY": "NULL",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "157",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_BLOOMINGDALES",
+    "METRIC_NAME": "RTP_ECOM_BLOOMINGDALES",
+    "SEVERITY": "4",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "157.1",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_BLOOMINGDALES",
+    "METRIC_NAME": "MSP",
+    "SEVERITY": "NULL",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "157.2",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_BLOOMINGDALES",
+    "METRIC_NAME": "NavApp",
+    "SEVERITY": "4",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "157.3",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_BLOOMINGDALES",
+    "METRIC_NAME": "SNS",
+    "SEVERITY": "NULL",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "157.4",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_BLOOMINGDALES",
+    "METRIC_NAME": "ShopApp",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "157.5",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_BLOOMINGDALES",
+    "METRIC_NAME": "WSSG",
+    "SEVERITY": "NULL",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "158",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_MACYS",
+    "METRIC_NAME": "RTP_ECOM_MACYS",
+    "SEVERITY": "4",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "158.1",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_MACYS",
+    "METRIC_NAME": "Legacy",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "158.2",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_MACYS",
+    "METRIC_NAME": "MSP",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "158.3",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_MACYS",
+    "METRIC_NAME": "MobileWeb",
+    "SEVERITY": "NULL",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "158.4",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_MACYS",
+    "METRIC_NAME": "NavApp",
+    "SEVERITY": "4",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "158.5",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_MACYS",
+    "METRIC_NAME": "SNS",
+    "SEVERITY": "NULL",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "158.6",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_MACYS",
+    "METRIC_NAME": "ShopApp",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "158.7",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "RTP_ECOM_MACYS",
+    "METRIC_NAME": "WSSG",
+    "SEVERITY": "NULL",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "234",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "shared",
+    "METRIC_NAME": "shared",
+    "SEVERITY": "4",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "234.1",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "shared",
+    "METRIC_NAME": "MCHub",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "234.2",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "shared",
+    "METRIC_NAME": "OES",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "1"
+  },
+  {
+    "RANK": "234.3",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "shared",
+    "METRIC_NAME": "databases",
+    "SEVERITY": "4",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "234.4",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "shared",
+    "METRIC_NAME": "misc",
+    "SEVERITY": "4",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  },
+  {
+    "RANK": "234.5",
+    "D_CLIENT_ID": "4298",
+    "METRIC_GROUP": "shared",
+    "METRIC_NAME": "monitoring",
+    "SEVERITY": "0",
+    "QUERY": "PRODUCT_NAME-by_SOFTWARE_TYPE",
+    "VALID_FLAG": "0"
+  }
+]

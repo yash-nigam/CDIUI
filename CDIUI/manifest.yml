@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: w3ibm.mybluemix.net
+  name: WebAppCP
+  host: WebAppCP
+  disk_quota: 1024M
